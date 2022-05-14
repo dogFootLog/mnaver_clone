@@ -63,3 +63,40 @@ input::placeholder {
   padding-top: 10px;
   padding-right: 7px;
 }
+
+.list-area {
+  display: block;
+  margin: 0 auto;
+}
+
+.list-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  width: 313px;
+  height: 152px;
+  margin: 0 auto;
+  padding: 13px 0 37px;
+}
+
+.list-item {
+  padding: 11px 4.57vw 0 4.56vw;
+}
+
+.list-item > img {
+  width: 44px;
+  filter: drop-shadow(2px 2px 1px rgb(117 145 181 / 8%));
+  display: block;
+  margin: 0 auto;
+}
+
+.list-item > span {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block;
+  margin-top: 6px;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: -0.55px;
+  color: #1e1e23;
+  text-align: center;
+}

@@ -42,5 +42,6 @@ module.exports = {
     "react/no-array-index-key": "off",
     "import/no-extraneous-dependencies": "off",
     "react/self-closing-comp": "off",
+    "react/no-unstable-nested-components": "off",
   },
 };
