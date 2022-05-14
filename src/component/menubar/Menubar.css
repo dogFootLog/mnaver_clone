@@ -1,0 +1,39 @@
+.sch-area {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.sch-wrap {
+  position: relative;
+  height: 52px;
+  padding: 1px;
+  background: linear-gradient(105deg, #03cf5d, #03c75a 100%);
+  border-radius: 26px;
+  box-shadow: 0 5px 10px 0 rgb(117 145 181 / 12%);
+  box-sizing: border-box;
+}
+
+.sch-inner-wrap {
+  display: block;
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  bottom: 1px;
+  left: 1px;
+  background-color: #fff;
+  border-radius: 29px;
+}
+
+.sch-inner {
+  min-height: 550px;
+  position: relative;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.sch-logo {
+  position: relative;
+  height: 39px;
+  margin-top: 5px;
+  margin-left: 12px;
+}
